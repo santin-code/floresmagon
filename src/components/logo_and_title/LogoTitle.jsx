@@ -1,6 +1,6 @@
 import React from "react";
 import "./logo_title.css";
-// import { GiBatWing } from "react-icons/gi";
+//  import { GiBatWing } from "react-icons/gi";
 // import { AiFillGitlab } from "react-icons/ai";
 import { RiWhatsappFill } from "react-icons/ri";
 

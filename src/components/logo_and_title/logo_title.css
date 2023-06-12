@@ -2,11 +2,10 @@
     color: white;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     width: 60%;
-    height: 100vh;
+    height: 85vh;
     font-size: 3rem;
-    margin-top: 1rem;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     margin-inline: auto;
   }
@@ -36,4 +35,11 @@
   .whatsapp_icon{
     color: rgb(255, 255, 255);
     font-size: 5rem;
+    opacity: .7;
+  }
+
+  @media screen and (min-width: 600px) {
+    .whatsapp_icon{
+      font-size: 8rem;
+    }
   }
