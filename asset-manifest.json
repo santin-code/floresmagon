@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/floresmagon/static/css/main.6703b0e5.css",
-    "main.js": "/floresmagon/static/js/main.af8e9b9e.js",
-    "index.html": "/floresmagon/index.html",
-    "main.6703b0e5.css.map": "/floresmagon/static/css/main.6703b0e5.css.map",
-    "main.af8e9b9e.js.map": "/floresmagon/static/js/main.af8e9b9e.js.map"
+    "main.css": "/static/css/main.6703b0e5.css",
+    "main.js": "/static/js/main.af8e9b9e.js",
+    "index.html": "/index.html",
+    "main.6703b0e5.css.map": "/static/css/main.6703b0e5.css.map",
+    "main.af8e9b9e.js.map": "/static/js/main.af8e9b9e.js.map"
   },
   "entrypoints": [
     "static/css/main.6703b0e5.css",
