@@ -1,0 +1,39 @@
+.title_cologne{
+    color: white;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    width: 60%;
+    height: 100vh;
+    font-size: 3rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+  }
+  
+  .icon_bat_gitlab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+  
+  .bat_wing_left{
+    color: white;
+    font-size: 2.5rem;
+  }
+  
+  .bat_wing_right{
+    transform: scaleX(-1);
+    color: white;
+    font-size: 2.5rem;
+  }
+  .git_lab{
+    font-size: 1.3rem;
+    color: white;
+  }
+
+  .whatsapp_icon{
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+  }

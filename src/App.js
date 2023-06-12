@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ParticlesBackground from "./components/ParticlesBackground";
+// import ItemContainer from "./components/item_container/ItemContainer";
+import LogoTitle from "./components/logo_and_title/LogoTitle";
+// import { IoDiamond } from "react-icons/io5";
+// import { GiPodiumWinner } from "react-icons/gi";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <ParticlesBackground />
+      <LogoTitle /> 
+      {/* <div className="principal_container">
+        <ItemContainer title={"DIAMANTES"}>
+          <IoDiamond className="io_diamond" />
+        </ItemContainer>
+      </div> */}
+      {/* <div className="description_page">
+        <h1 >
+          LIDER EN VENTA DE DIAMANTES <br/> Y RECARGAS ELECTRONICAS
+        </h1>
+      </div> */}
     </div>
   );
 }
