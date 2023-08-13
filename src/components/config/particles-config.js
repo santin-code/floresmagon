@@ -11,7 +11,7 @@ const particlesConfig = {
       value: "#ffffff",
     },
     shape: {
-      type: "circle",
+      type: "triangle",
       stroke: {
         width: 0,
         color: "#ffffff",
@@ -36,7 +36,7 @@ const particlesConfig = {
       },
     },
     size: {
-      value: 3,
+      value: 4,
       random: true,
       anim: {
         enable: false,
@@ -46,7 +46,7 @@ const particlesConfig = {
       },
     },
     line_linked: {
-      enable: false,
+      enable: true,
       distance: 150,
       color: "#ffffff",
       opacity: 0.4,

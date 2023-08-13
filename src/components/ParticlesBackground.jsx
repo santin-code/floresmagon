@@ -10,7 +10,7 @@ const ParticlesBackground = () => {
     loadFull(engine);
   }, []);
   return (
-    <div>
+    <div id="home">
       <Particles className="particles_background" id="tsparticles" options={particlesConfig} init={particlesInit} />
     </div>
   );

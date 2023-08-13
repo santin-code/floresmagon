@@ -1,0 +1,81 @@
+@font-face {
+  font-family: RubikMaze-Regular;
+  src: url(./RubikMaze-Regular.woff2) format("woff2");
+
+  /* UNICODE RANGE ES PARA USAR SOLO LOS CARACTERES EN ESPAÑOL Y QUIZA HACER QUE QUE EL PESO SEA UN POCO MENOS EL FONT */
+
+  unicode-range: U+0000-00ff;
+}
+
+@font-face {
+  font-family: permanenteMarker;
+  src: url(./PermanentMarker-Regular.woff2) format("woff2");
+  unicode-range: U+0000-00ff;
+}
+
+.green26f59f {
+  color: #abf8f8;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-family: RubikMaze-Regular;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.react_icon {
+  width: 3rem;
+  margin: 0 12px;
+}
+
+.slogan {
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: permanenteMarker;
+  font-weight: 100;
+  margin-top: -0.9rem;
+}
+
+/* ESTE CODIGO FUE COPIADO DE UNA PAGINA RANDOM Y HACE GIRAR INFINITAMENTE EL ICON DE REACT */
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.faReact {
+  -webkit-animation: 3s rotate linear infinite;
+  animation: 3s rotate linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  font-size: 3rem;
+  color: #abf8f8;
+}
+
+/* AQUI TERMINA xD */
+
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 3rem;
+  }
+}
