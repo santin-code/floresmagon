@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d6bc8f5.css",
-    "main.js": "/static/js/main.af8e9b9e.js",
+    "main.css": "/static/css/main.6e81a9ea.css",
+    "main.js": "/static/js/main.8ce12cd8.js",
+    "static/media/RubikMaze-Regular.woff2": "/static/media/RubikMaze-Regular.4668078fe362c0c596ac.woff2",
+    "static/media/PermanentMarker-Regular.woff2": "/static/media/PermanentMarker-Regular.18186fa7e4323825d47a.woff2",
+    "static/media/cfelogo.webp": "/static/media/cfelogo.42c374fd4bad0014d279.webp",
+    "static/media/megacable.svg": "/static/media/megacable.fdf33bc4c2b5bd15edff28d930136cb3.svg",
     "index.html": "/index.html",
-    "main.1d6bc8f5.css.map": "/static/css/main.1d6bc8f5.css.map",
-    "main.af8e9b9e.js.map": "/static/js/main.af8e9b9e.js.map"
+    "main.6e81a9ea.css.map": "/static/css/main.6e81a9ea.css.map",
+    "main.8ce12cd8.js.map": "/static/js/main.8ce12cd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d6bc8f5.css",
-    "static/js/main.af8e9b9e.js"
+    "static/css/main.6e81a9ea.css",
+    "static/js/main.8ce12cd8.js"
   ]
 }
