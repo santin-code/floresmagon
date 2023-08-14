@@ -7,9 +7,9 @@ const Logo = () => {
   return (
     <>
       <div className="logo green26f59f">
-      ARKAL <FaReact  className="green26f59f faReact react_icon"/>  TECH{" "} 
+      CIBER <FaReact  className="green26f59f faReact react_icon"/>  ARKAL{" "} 
       </div>
-      <p className="slogan">Simplifyng your digital life</p>
+      <p className="slogan">Simplifying your digital life</p>
     </>
   );
 };
