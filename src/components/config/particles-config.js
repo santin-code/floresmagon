@@ -13,7 +13,7 @@ const particlesConfig = {
     shape: {
       type: "triangle",
       stroke: {
-        width: 0,
+        width: 1.5,
         color: "#ffffff",
       },
       polygon: {

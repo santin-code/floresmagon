@@ -11,6 +11,7 @@
   a:-webkit-any-link{
     color: #abf8f8;
   }
+
 html{
 	scroll-behavior: smooth;
 }
@@ -24,13 +25,7 @@ html{
   --bg-md: 80%;
 }
 
-@font-face {
-  font-family: permanenteMarker;
-  src: url(./components/logo_arkal_react_icon/PermanentMarker-Regular.woff2) format("woff2");
-  unicode-range: U+0000-00ff;
-}
-
-h1{
+.permanent_marker {
   color: white;
   width: 100%;
   font-family: permanenteMarker;
@@ -39,35 +34,18 @@ h1{
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 2rem;
-}
-.services_container{
-  width: 50%;
-  margin-inline: auto;
   margin-top: 3rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
-}
-.logo_cfe{
-  width: 20rem;
-  margin-top: 2rem;
-}
-.logo_megacable{
-  width: 32rem;
-  background-color: aliceblue;
-  opacity: .8;
-  margin-top: 1rem;
-  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
-@media screen and (max-width: 600px){
-  .logo_megacable{
-    width: 24rem;
-    height: 8rem;
-  }
-  h1{
-    width: 24rem;
-  }
+@font-face {
+  font-family: permanenteMarker;
+  src: url(./components/logo_arkal_react_icon/PermanentMarker-Regular.woff2) format("woff2");
+  unicode-range: U+0000-00ff;
 }
+
+
+
+
+

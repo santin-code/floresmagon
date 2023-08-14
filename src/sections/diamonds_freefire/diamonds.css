@@ -1,0 +1,14 @@
+.diamond_price_container{
+  width: 50%;
+  display: flex;
+  min-height: 80vh;
+  align-items: center;
+	margin-inline: auto;
+}
+
+
+@media screen and (max-width: 600px){
+  .diamond_price_container{
+    width: 90%;
+  }
+}

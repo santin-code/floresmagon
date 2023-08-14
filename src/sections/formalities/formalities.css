@@ -1,0 +1,40 @@
+.tramites{
+    width: 50%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tramites > p {
+    color: white;
+    min-width: 50%;
+    max-width: 50%;
+    overflow-wrap: break-word;
+    border: 1px solid white;
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  
+  .tramites :nth-child(1){
+    padding: 1rem;
+    text-align: center;
+    background-color: #526363;
+  }
+  .tramites :nth-child(2){
+    padding: 1rem;
+    text-align: center;
+    background-color: #526363;
+  }
+  .tramites :nth-child(3){
+    padding: 1.3rem;
+    text-align: center;
+  }
+  .tramites :nth-child(4){
+    padding: .3rem;
+  }
+
+  @media screen and (max-width: 600px){
+    .tramites{
+      width: 90%;
+    }
+  }
