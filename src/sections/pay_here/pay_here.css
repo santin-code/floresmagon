@@ -30,17 +30,27 @@
   color: white;
   font-family: permanenteMarker;
   position: absolute;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   right: 50%;
 }
 @media screen and (max-width: 600px){
     .logo_megacable{
-      width: 24rem;
+      width: 18rem;
       height: 8rem;
       margin-bottom: 4rem;
       margin-top: 3rem;
     }
+    .logo_cfe{
+      width: 18rem;
+    }
+    .logo_bait{
+      width: 18rem;
+    }
     h1{
       width: 24rem;
+    }
+    .reload {
+      right: 49%;
+      font-size: 1.5rem;
     }
   }

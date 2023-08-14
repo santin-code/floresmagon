@@ -16,10 +16,8 @@ function App() {
 
         <Nav />
       </section>
-
-
-        <Formalities />
         <Diamonds />
+        <Formalities />
     </div>
   );
 }
