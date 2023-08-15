@@ -33,6 +33,19 @@
   font-size: 1.9rem;
   right: 50%;
 }
+
+.other_companies{
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem;
+}
+
+.companies{
+ width: 4rem;
+ height: 3rem;
+}
+
 @media screen and (max-width: 600px){
     .logo_megacable{
       width: 18rem;

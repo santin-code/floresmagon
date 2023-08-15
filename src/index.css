@@ -8,6 +8,17 @@
     box-sizing: border-box;
   }
 
+  @font-face {
+    font-family: permanenteMarker;
+    src: url(./components/logo_arkal_react_icon/PermanentMarker-Regular.woff2) format("woff2");
+    unicode-range: U+0000-00ff;
+  }
+
+  @font-face {
+    font-family: kalam;
+    src: url(./components/logo_arkal_react_icon/Kalam-Regular.ttf);
+  }
+
   a:-webkit-any-link{
     color: #abf8f8;
   }
@@ -39,11 +50,7 @@ html{
   font-size: 2rem;
 }
 
-@font-face {
-  font-family: permanenteMarker;
-  src: url(./components/logo_arkal_react_icon/PermanentMarker-Regular.woff2) format("woff2");
-  unicode-range: U+0000-00ff;
-}
+
 
 
 
