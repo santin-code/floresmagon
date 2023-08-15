@@ -19,7 +19,7 @@ const Rombo = () => {
 
           <div className="rombo_container">
             <GiRocket className="rocket" />
-            <div class="rombo2">numero de seguro social</div>
+            <div class="rombo2">número de seguro social</div>
           </div>
 
           <div className="rombo_container">
