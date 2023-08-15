@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e6daed1.css",
-    "main.js": "/static/js/main.05072328.js",
+    "main.css": "/static/css/main.c9463998.css",
+    "main.js": "/static/js/main.f43daad4.js",
     "static/media/Kalam-Regular.ttf": "/static/media/Kalam-Regular.831aaad03890ba2d7417.ttf",
     "static/media/RubikMaze-Regular.woff2": "/static/media/RubikMaze-Regular.4668078fe362c0c596ac.woff2",
     "static/media/movistar.png": "/static/media/movistar.015010e84c6afd1bb5ed.png",
@@ -14,11 +14,11 @@
     "static/media/bait.png": "/static/media/bait.a80e125650072a66bcca.png",
     "static/media/megacable.svg": "/static/media/megacable.fdf33bc4c2b5bd15edff28d930136cb3.svg",
     "index.html": "/index.html",
-    "main.7e6daed1.css.map": "/static/css/main.7e6daed1.css.map",
-    "main.05072328.js.map": "/static/js/main.05072328.js.map"
+    "main.c9463998.css.map": "/static/css/main.c9463998.css.map",
+    "main.f43daad4.js.map": "/static/js/main.f43daad4.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e6daed1.css",
-    "static/js/main.05072328.js"
+    "static/css/main.c9463998.css",
+    "static/js/main.f43daad4.js"
   ]
 }
