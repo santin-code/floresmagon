@@ -28,10 +28,10 @@ const PayHere = () => {
           <p className="reload">recarga</p>
           <img src={BAIT} alt="logo_bait" className="logo_bait min_opacity" />
           <div className="other_companies">
-            <img src={TELCEL} alt="logo_telcel" className="companies" />
+            <img src={TELCEL} alt="logo_telcel" className="companies border_left" />
             <img src={ATT} alt="logo_att" className="companies" />
             <img src={MOVISTAR} alt="logo_movistar" className="companies" />
-            <img src={UNEFON} alt="logo_unefon" className="companies" />
+            <img src={UNEFON} alt="logo_unefon" className="companies border_right"  />
           </div>
         </div>
       </div>

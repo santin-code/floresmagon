@@ -6,7 +6,7 @@ const Formalities = () => {
   return (
     <>
       <section className="section">
-        <h2 className="permanent_marker"> TRAMITAMOS </h2>
+        <h2 className="permanent_marker" > TRAMITES Y SERVICIOS </h2>
         <Rombo />
       </section>
     </>
