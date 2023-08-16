@@ -1,13 +1,15 @@
 
 
 .logo_direction{
-    width: 50rem;
+    width: 40%;
     display: flex;
     margin-inline: auto;
+    margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 600px){
     .logo_direction{
         width: 30rem;
+        margin-bottom: 0;
     }
 }
