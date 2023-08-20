@@ -7,6 +7,12 @@
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width: 400px){
+   .logo_whats{
+    width: 1rem;
+   }
+}
+
 @media screen and (max-width: 600px){
     .logo_direction{
         width: 30rem;

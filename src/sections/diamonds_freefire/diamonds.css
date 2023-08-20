@@ -1,32 +1,33 @@
-.diamond_price_container{
-  width: 50%;
+.diamond_price_container {
+  width: 60%;
   display: flex;
-  min-height: 80vh;
-	margin-inline: auto;
+  /* min-height: 80vh; */
+  margin-inline: auto;
 }
 
-.logo_garena{
+.logo_garena {
   margin-top: 3rem;
   margin-bottom: -2rem;
   width: 24rem;
   margin-inline: auto;
 }
 
-
-.diamond_info{
+.diamond_info {
   margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
+  width: 90%;
 }
 
 .diamond_info > p {
   color: white;
   min-width: 50%;
   max-width: 50%;
-  padding: .5rem;
-  font-size: 2rem;
+  /* padding: 0.5rem;
+  font-size: 2rem; */
   text-align: center;
   font-family: kalam;
+  font-size: 1.8rem;
   font-weight: bold;
   overflow-wrap: break-word;
   display: flex;
@@ -43,55 +44,42 @@
   padding: 0;
 }
 
-
-.diamond_info :nth-child(1){
-  padding: 1rem;
+.diamond_info :nth-child(1) {
+  /* padding: 1rem; */
   text-align: center;
   background-color: #333535;
   color: red;
 }
-.diamond_info :nth-child(2){
+.diamond_info :nth-child(2) {
   text-align: center;
   background-color: #333535;
   color: red;
 }
-.diamond_info :nth-child(3){
+.diamond_info :nth-child(3) {
   text-align: center;
 }
 
-
-@media screen and (max-width: 600px){
-  .diamond_info{
-    width: 90%;
-  }
-  .diamond_price_container{
-    width: 95%;
-  }
-
-}
-
-
-@media screen and (max-width: 886px){
-  .diamond_info{
-    width: 90%;
-  }
-  .diamond_price_container{
-    width: 95%;
+@media screen and (max-width: 400px) {
+  .logo_garena {
+    width: 13rem;
   }
 
   .diamond_info > p {
-    font-size: 1.4rem;
+    font-size: 1rem;
+  }
+  .permanent_marker{
+    font-size: 1rem;
   }
 
-  .diamond_info > p {
-    font-size: 1.4rem;
-  }
 
 }
 
-
-
-
-
-
+@media screen and (max-width: 600px) {
+  .diamond_info {
+    width: 90%;
+  }
+  .diamond_price_container {
+    width: 95%;
+  }
+}
 

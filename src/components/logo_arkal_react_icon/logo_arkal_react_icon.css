@@ -29,10 +29,7 @@
   z-index: 0;
 }
 
-.react_icon {
-  width: 3rem;
-  margin: 0 12px;
-}
+
 
 .slogan {
   color: white;
@@ -69,14 +66,30 @@
   animation: 3s rotate linear infinite;
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  font-size: 3rem;
+  font-size: 2rem;
+  margin: 0 5px;
   color: #abf8f8;
 }
 
 /* AQUI TERMINA xD */
 
+
 @media screen and (max-width: 600px) {
   .logo {
     font-size: 3rem;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .logo {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  .faReact{
+    font-size: 1.5rem;
+  }
+  .slogan{
+    font-size: 0.8rem;
+  }
+
 }

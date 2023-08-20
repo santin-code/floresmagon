@@ -1,5 +1,17 @@
+.pay_here{
+  color: white;
+  width: 100%;
+  font-family: permanenteMarker;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 
-
+}
 .services_container {
   width: 50%;
   margin-inline: auto;
@@ -8,22 +20,23 @@
   align-items: center;
 }
 
-.logo_cfe {
-  width: 20rem;
-  margin-bottom: 3rem;
-}
+
 .logo_megacable {
   width: 32rem;
   background-color: aliceblue;
   margin-bottom: 3rem;
   border-radius: 8px;
 }
-.logo_bait {
-  width: 24rem;
+
+.logo_cfe {
+  width: 20rem;
+  margin-bottom: 3rem;
 }
 
-.min_opacity {
-  opacity: 1;
+.logo_bait {
+  width: 24rem;
+  display: flex;
+  margin-inline: auto;
 }
 
 .reload {
@@ -33,17 +46,10 @@
   font-size: 1.9rem;
   right: 50%;
 }
-
 .other_companies{
-  width: 90%;
   display: flex;
-  justify-content: space-evenly;
-  margin: 1rem;
-  right: 4%;
-  position: absolute;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  margin-top: 0.8rem;
 }
 
 .companies{
@@ -79,4 +85,43 @@
       right: 49%;
       font-size: 1.5rem;
     }
+  }
+
+  @media screen and (max-width: 400px) {
+    .pay_here{
+      font-size: 1.3rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+    }
+    .logo_megacable{
+      width: 13rem;
+      height: 6rem;
+      margin-bottom: 2rem;
+    }
+
+    .logo_cfe {
+      width: 13rem;
+      margin-bottom: 1rem;
+    }
+
+    .logo_bait{
+      width: 13rem;
+    }
+
+    .reload {
+      font-size: 1rem;
+      right: 50%;
+    }
+
+    .other_companies{
+      right: 1%;
+      top: 103%;
+    }
+
+    .companies{
+      width: 3rem;
+      height: 2.5rem;
+      
+    }
+
   }

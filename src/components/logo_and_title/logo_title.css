@@ -1,6 +1,6 @@
 .title_cologne_container{
   position: relative;
-  bottom: 5rem;
+  bottom: 7rem;
   z-index: 5;
 }
 
@@ -17,7 +17,7 @@
 
   .whatsapp_icon{
     color: rgb(255, 255, 255);
-    font-size: 5rem;
+    font-size: 7rem;
     opacity: .7;
   }
 
@@ -29,5 +29,16 @@
 
     .whatsapp_icon{
       font-size: 9.5rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+
+    .title_cologne_container{
+      top: 3rem;
+    }
+
+    .whatsapp_icon{
+      font-size: 3.5rem;
     }
   }
