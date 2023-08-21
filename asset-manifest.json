@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2df89be6.css",
-    "main.js": "/static/js/main.44b00266.js",
+    "main.css": "/static/css/main.bfa4439f.css",
+    "main.js": "/static/js/main.c038af11.js",
     "static/media/Kalam-Regular.ttf": "/static/media/Kalam-Regular.831aaad03890ba2d7417.ttf",
     "static/media/LogoDireccionArkal.svg": "/static/media/LogoDireccionArkal.d7e92342607d24a919089be9f6878620.svg",
     "static/media/RubikMaze-Regular.woff2": "/static/media/RubikMaze-Regular.4668078fe362c0c596ac.woff2",
@@ -15,11 +15,11 @@
     "static/media/bait.png": "/static/media/bait.a80e125650072a66bcca.png",
     "static/media/megacable.svg": "/static/media/megacable.fdf33bc4c2b5bd15edff28d930136cb3.svg",
     "index.html": "/index.html",
-    "main.2df89be6.css.map": "/static/css/main.2df89be6.css.map",
-    "main.44b00266.js.map": "/static/js/main.44b00266.js.map"
+    "main.bfa4439f.css.map": "/static/css/main.bfa4439f.css.map",
+    "main.c038af11.js.map": "/static/js/main.c038af11.js.map"
   },
   "entrypoints": [
-    "static/css/main.2df89be6.css",
-    "static/js/main.44b00266.js"
+    "static/css/main.bfa4439f.css",
+    "static/js/main.c038af11.js"
   ]
 }
