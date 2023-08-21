@@ -35,20 +35,7 @@
     color: #abf8f8;
   }
 
-  @media screen and (max-width:400px){
-    .rombo_principal_container{
-        width: 90%;
-    }
-   .rombo2{
-    font-size: 2rem;
-    width: 100%;
-   }
 
-   .logo_direction{
-    width: 17rem;
-   }
-
-  }
 
   @media screen and (max-width:600px){
     .rombo_principal_container{
@@ -60,9 +47,24 @@
     }
 
    .rombo2{
+    font-size: 1.5rem;
+    width: 100%;
+   }
+  }
+
+  @media screen and (max-width:400px){
+    .rombo_principal_container{
+        width: 90%;
+    }
+   .rombo2{
     font-size: 1rem;
     width: 100%;
    }
+
+   .logo_direction{
+    width: 17rem;
+   }
+
   }
 
 

@@ -39,6 +39,11 @@ const Rombo = () => {
 
           <div className="rombo_container">
             <GiRocket className="rocket" />
+            <div className="rombo2">cartas de recomendación personal y laboral</div>
+          </div>
+
+          <div className="rombo_container">
+            <GiRocket className="rocket" />
             <div className="rombo2">escáner</div>
           </div>
 
